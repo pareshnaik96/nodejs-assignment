@@ -6,7 +6,7 @@ Key points
 * Created different collection in MongoDB for each info.(Agent, User, User's Account, LOB, Carrier, Policy).
 
 POST APIs
-* Upload the file using multer and save it to public file.
+* Upload the file using multer(for handling multipart/form-data) and save it to public folder.
 * Created user, user's account, agent, LOB, carrier and policy collection by getting the data from csv file.
 * From public csv file fetching the data for every collection and stored the data into mongoDB database.
 
